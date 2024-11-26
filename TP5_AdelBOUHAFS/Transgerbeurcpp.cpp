@@ -65,7 +65,7 @@ int main()
 
 
 	cout << "Programme du transgerbeur" << "\n";
-
+	cout << "La taille est de: " << sizeof(SCasier);
 	
 
 
