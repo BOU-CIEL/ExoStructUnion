@@ -49,6 +49,7 @@ int main()
 	SPalette pa1;
 	SCasier c1;
 	UContenu cont;
+	SCasier tabCasier[9];
 
 	pa1.poids = 15;
 	strcpy_s(pa1.reference, "palette1");
@@ -65,7 +66,7 @@ int main()
 
 
 	cout << "Programme du transgerbeur" << "\n";
-	cout << "La taille est de: " << sizeof(SCasier);
+	cout << "La taille est de: " << sizeof(SPalette);
 	
 
 
